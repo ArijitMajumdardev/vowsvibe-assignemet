@@ -62,32 +62,32 @@ export default function ProductPage() {
   return (
     <div className="min-h-screen bg-white text-gray-800 font-montserrat">
       {/* Promo bar */}
-      <div className="w-full bg-[#ca8787] text-white text-[13px] tracking-[-0.01em] flex justify-center items-center h-[43px]">
+      <div className="w-full bg-[#ca8787] text-white text-[0.8125rem] tracking-[-0.01em] flex justify-center items-center h-[2.6875rem]">
         <span>
           50% off on all items Only Limited Time Deal Offer ending in 03:34:15
         </span>
       </div>
 
       {/* Header */}
-      <header className="h-[85px] bg-[#fbf8f6] w-full  px-[126px] py-[22px]">
+      <header className="h-[5.3125rem] bg-[#fbf8f6] w-full px-[7.875rem] py-[1.375rem]">
         <div className="container mx-auto flex items-center justify-between">
-          <div className="text-[30px] font-bold tracking-wide">LOGO</div>
-          <nav className="hidden md:flex items-center gap-[28px] h-[22px] w-[515px] b text-[16px]">
-            <button className="inline-flex items-center gap-[3px]">
-              Collections <ChevronDown size={20} strokeWidth={1} />
+          <div className="text-[1.875rem] font-bold tracking-wide">LOGO</div>
+          <nav className="hidden md:flex items-center gap-[1.75rem] h-[1.375rem] w-[32.1875rem] text-[1rem]">
+            <button className="inline-flex items-center gap-[0.1875rem]">
+              Collections <ChevronDown size={1.25 * 16} strokeWidth={1} />
             </button>
-            <button className="inline-flex items-center gap-[3px]">
-              Categories <ChevronDown size={20} strokeWidth={1} />
+            <button className="inline-flex items-center gap-[0.1875rem]">
+              Categories <ChevronDown size={1.25 * 16} strokeWidth={1} />
             </button>
             <button>Hot Picks</button>
             <button>Gifts</button>
             <button>Shop All</button>
           </nav>
-          <div className="flex items-center gap-[6px]">
-            <button className="px-5 py-2 text-[18px] font-bold text-white bg-[#ff8e9c] h-[40px] w-[139px] flex items-center justify-center">
+          <div className="flex items-center gap-[0.375rem]">
+            <button className="px-5 py-2 text-[1.125rem] font-bold text-white bg-[#ff8e9c] h-[2.5rem] w-[8.6875rem] flex items-center justify-center">
               LOGIN
             </button>
-            <button className="px-5 py-2 text-[18px] font-bold  border border-[#f8c1c1] text-[#ff8e9c] bg-[#fff5f5] h-[40px] w-[139px] flex items-center justify-center">
+            <button className="px-5 py-2 text-[1.125rem] font-bold border border-[#f8c1c1] text-[#ff8e9c] bg-[#fff5f5] h-[2.5rem] w-[8.6875rem] flex items-center justify-center">
               REGISTER
             </button>
           </div>
@@ -139,94 +139,106 @@ export default function ProductPage() {
         </div>
 
         {/* Right details column */}
-        <div className="lg:col-span-6">
-          <div>
-            <h1 className="text-[28px] leading-9 font-semibold text-gray-900">
-              Gold-Plated Pearls Necklace
-            </h1>
-            <p className="text-[28px] leading-9 font-semibold text-gray-700 mt-1">
-              Made with 925 Silver
-            </p>
-
-            {/* Rating */}
-            <div className="mt-4 flex items-center gap-3 text-[15px]">
-              <span className="inline-flex items-center gap-1 px-2 py-1 rounded-md bg-[#e7f3e7] text-[#2a7b2e] font-semibold">
-                4.1 <Star />
-              </span>
-              <span className="text-gray-700">(23)</span>
+        <div className="lg:col-span-6 w-[622px] bg-amber-100 ">
+          <div className="h-[190px] w-[622px] ">
+            <div className="h-[86px]">
+              <h1 className="text-[28px] leading-9 font-semibold text-gray-900">
+                Gold-Plated Pearls Necklace
+              </h1>
+              <p className="text-[28px] leading-9 font-semibold text-gray-700 mt-1">
+                Made with 925 Silver
+              </p>
             </div>
 
-            {/* Price */}
-            <div className="mt-4 flex items-baseline gap-4">
-              <div className="text-3xl font-semibold tracking-tight">
-                ₹ 1,600
+            {/* Rating */}
+            <div className="h-[88px]">
+              <div className="mt-4 h-[29px] w-[155px] flex items-center gap-[10px] text-[15px] ">
+                <span className="inline-flex h-[28px] w-[60px] items-center gap-1 px-2 py-1 text-18px  bg-[#388E3C] text-white font-semibold">
+                  4.1 <Star />
+                </span>
+                <span className="text-gray-700 text-[24px] font-semibold">
+                  (23)
+                </span>
               </div>
-              <div className="text-gray-400 line-through">₹ 2,000</div>
-              <div className="text-[#159f46] font-semibold">(20% off)</div>
+
+              {/* Price */}
+              <div className="mt-2 flex items-baseline gap-[18px] ">
+                <div className="text-[42px] font-semibold tracking-tight">
+                  ₹ 1,600
+                </div>
+                <div className="text-gray-400 line-through text-[18px]">
+                  ₹ 2,000
+                </div>
+                <div className="text-[#159f46] font-semibold text-[24px]">
+                  (20% off)
+                </div>
+              </div>
             </div>
           </div>
 
           {/* USPs */}
-          <div className="mt-7 grid grid-cols-1 sm:grid-cols-2 gap-5">
+          <div className="mt-[32px] grid grid-cols-1 sm:grid-cols-2 gap-5 ">
             <div className="flex items-center gap-3">
               <BoxIcon />
-              <span className="text-[15px]">Easy 30 Day Return</span>
+              <span className="text-[20px]">Easy 30 Day Return</span>
             </div>
             <div className="flex items-center gap-3">
               <Silver925Icon />
-              <span className="text-[15px]">925 Silver Plating</span>
+              <span className="text-[20px]">925 Silver Plating</span>
             </div>
             <div className="flex items-center gap-3">
               <ShieldIcon />
-              <span className="text-[15px]">
+              <span className="text-[20px]">
                 <span className="mr-1">6-</span> Month Warranty
               </span>
             </div>
             <div className="flex items-center gap-3">
               <MedalIcon />
-              <span className="text-[15px]">Premium Gold</span>
+              <span className="text-[20px]">Premium Gold</span>
             </div>
           </div>
 
           {/* Actions */}
-          <div className="mt-8 flex flex-wrap gap-4">
-            <button className="h-12 px-6 rounded-md border border-gray-300 bg-white shadow-sm text-[#e56f6f] font-semibold hover:shadow transition">
+          <div className="mt-8 h-[70px] w-[556px] flex flex-wrap gap-[11px]">
+            <button className="h-full w-[272.5px] px-[63.25px] py-[23px] border border-gray-300 bg-white text-[19px] text-[#ff8e9c] font-bold hover:shadow transition">
               ADD TO CART
             </button>
-            <button className="h-12 px-7 rounded-md bg-[#ef6f79] text-white font-semibold shadow-sm hover:brightness-95 transition">
+            <button className="h-full w-[272.5px]  px-[83.25px] py-[23px] bg-[#ff8e9c] text-white font-bold text-[19px] hover:brightness-95 transition">
               BUY NOW
             </button>
           </div>
 
           {/* Delivery */}
           <div className="mt-8">
-            <div className="text-sm font-medium text-gray-800 mb-2">
+            <div className="text-[20px] font-semibold text-gray-800 mb-3">
               Estimated Delivery Time
             </div>
-            <div className="flex items-stretch max-w-xl">
+            <div className="flex border border-gray-400 items-center w-[555px] h-[70px] py-[20px] px-[14px] ">
               <input
                 placeholder="Enter Pincode"
-                className="flex-1 h-12 rounded-l-md border border-gray-300 px-4 text-[15px] outline-none focus:ring-2 focus:ring-rose-200"
+                className="flex-1 h-10 text-[18px] outline-none "
               />
-              <button className="h-12 px-6 rounded-r-md border border-l-0 border-gray-300 text-[#e56f6f] font-semibold bg-white">
+              <button className=" text-[18px] text-[#e56f6f] font-semibold bg-transparent">
                 Check
               </button>
             </div>
           </div>
 
           {/* Offers */}
-          <div className="mt-6 max-w-xl">
-            <div className="text-sm font-semibold">
-              Offers{" "}
-              <span className="font-normal text-gray-500">2 available</span>
+          <div className="mt-8 w-[555px] h-[58px] flex flex-col gap-3">
+            <div className="text-[20px] font-semibold flex justify-between w-[555px] h-[24px]">
+              <div className="flex w-[173px] justify-center items-center gap-[16px]"> 
+                <span>Offers{" "}</span>
+                <span className="font-normal text-gray-500 text-[16px]">2 available</span>
+              </div>
+              <button className="text-[#e56f6f] font-semibold text-[18px]" >Check</button>
             </div>
-            <div className="mt-2 flex items-center justify-between text-sm text-gray-600">
-              <div>Coupon can be applied at checkout</div>
-              <button className="text-[#e56f6f] font-semibold">Check</button>
+            <div className="mt-2 flex items-center justify-between text-[18px]  text-[#2D2D2D]">
+              <i>Coupon can be applied at checkout</i>
             </div>
           </div>
 
-          <hr className="mt-8 border-gray-200" />
+          <hr className="mt-8 border-[#e56f6f]" />
         </div>
       </main>
 
