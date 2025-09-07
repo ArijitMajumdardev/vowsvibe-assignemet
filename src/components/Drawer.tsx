@@ -9,31 +9,31 @@ const drawerItems = [
   },
   {
     type: "image",
-    src: "/public/received2.png",
+    src: "/received2.png",
     alt: "recieved",
     label: "Gold Jewellery",
   },
   {
     type: "image",
-    src: "/public/received2.png",
+    src: "/received2.png",
     alt: "recieved",
     label: "Silver Jewellery",
   },
   {
     type: "image",
-    src: "/public/received2.png",
+    src: "/received2.png",
     alt: "recieved",
     label: "Trending Collection",
   },
   {
     type: "image",
-    src: "/public/received2.png",
+    src: "/received2.png",
     alt: "recieved",
     label: "Gifts",
   },
   {
     type: "image",
-    src: "/public/received2.png",
+    src: "/received2.png",
     alt: "recieved",
     label: "Shop by Occasion",
   },
@@ -73,7 +73,7 @@ export default function Drawer({ isDrawerOpen, toggleDrawer }: DrawerProps) {
           {/* Login / Signup */}
           <button className="flex items-center gap-3 py-3 bg-white text-[#2D2D2D] justify-left px-2 hover:bg-gray-100 mt-4">
             <img
-              src="/public/user-tick.svg"
+              src="/user-tick.svg"
               alt="recieved"
               className="size-5"
             />

@@ -9,7 +9,7 @@ export default function ProductDescription({
       <ul className="space-y-2 text-sm sm:text-base">
         {description.map((item, i) => (
           <li key={i} className="flex items-center gap-2">
-            <img src="/public/received.svg" alt="received" />
+            <img src="/received.svg" alt="received" />
             <span className="font-semibold">{item.label}:</span>
             {item.value}
           </li>

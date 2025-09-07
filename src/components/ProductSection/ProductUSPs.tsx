@@ -4,10 +4,10 @@ import type React from "react";
 
 export default function ProductUSPs({ usps }: ProductUSPsProps) {
   const icons: Record<string, React.ReactNode> = {
-    Box: <img src="/public/return.png" alt="return" className="size-8" />,
-    Silver: <img src="/public/silver.svg" alt="silver" className="size-8" />,
-    Shield: <img src="/public/warranty.png" alt="warrenty" className="size-8" />,
-    Medal: <img src="/public/gold.png" alt="premium" className="size-8" />,
+    Box: <img src="/return.png" alt="return" className="size-8" />,
+    Silver: <img src="/silver.svg" alt="silver" className="size-8" />,
+    Shield: <img src="/warranty.png" alt="warrenty" className="size-8" />,
+    Medal: <img src="/gold.png" alt="premium" className="size-8" />,
   };
 
   return (

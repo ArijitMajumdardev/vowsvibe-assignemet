@@ -10,7 +10,7 @@ export default function ProductRatingPrice({
     <div>
       <div className="flex items-center gap-2 text-sm sm:text-base">
         <span className="inline-flex items-center gap-1 px-2 py-1 text-sm bg-[#388E3C] text-white font-semibold">
-          {rating} <img src="/public/star.svg" alt="star" />
+          {rating} <img src="/star.svg" alt="star" />
         </span>
         <span className="text-gray-700 text-sm sm:text-base font-medium">
           ({reviewsCount})
