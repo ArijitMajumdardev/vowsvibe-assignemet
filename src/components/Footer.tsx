@@ -13,11 +13,31 @@ export default function Footer() {
                 Quick Links
               </h3>
               <ul className="space-y-2 md:space-y-2 text-[11px] font-medium text-gray-900">
-                <li><a href="/reviews" className="hover:underline">Customer Reviews</a></li>
-                <li><a href="/blogs" className="hover:underline">Our Blogs</a></li>
-                <li><a href="/stores" className="hover:underline">Store Locator</a></li>
-                <li><a href="/care" className="hover:underline">Jewellery Care</a></li>
-                <li><a href="/careers" className="hover:underline">Join Us</a></li>
+                <li>
+                  <a href="/reviews" className="hover:underline">
+                    Customer Reviews
+                  </a>
+                </li>
+                <li>
+                  <a href="/blogs" className="hover:underline">
+                    Our Blogs
+                  </a>
+                </li>
+                <li>
+                  <a href="/stores" className="hover:underline">
+                    Store Locator
+                  </a>
+                </li>
+                <li>
+                  <a href="/care" className="hover:underline">
+                    Jewellery Care
+                  </a>
+                </li>
+                <li>
+                  <a href="/careers" className="hover:underline">
+                    Join Us
+                  </a>
+                </li>
               </ul>
             </div>
 
@@ -27,11 +47,31 @@ export default function Footer() {
                 Details
               </h3>
               <ul className="space-y-2 md:space-y-3 text-[11px] font-medium text-gray-900">
-                <li><a href="/shipping" className="hover:underline">Shipping & Returns</a></li>
-                <li><a href="/privacy" className="hover:underline">Privacy Policy</a></li>
-                <li><a href="/international" className="hover:underline">International Shipping</a></li>
-                <li><a href="/faq" className="hover:underline">FAQ’s and Support</a></li>
-                <li><a href="/terms" className="hover:underline">Terms of Service</a></li>
+                <li>
+                  <a href="/shipping" className="hover:underline">
+                    Shipping & Returns
+                  </a>
+                </li>
+                <li>
+                  <a href="/privacy" className="hover:underline">
+                    Privacy Policy
+                  </a>
+                </li>
+                <li>
+                  <a href="/international" className="hover:underline">
+                    International Shipping
+                  </a>
+                </li>
+                <li>
+                  <a href="/faq" className="hover:underline">
+                    FAQ’s and Support
+                  </a>
+                </li>
+                <li>
+                  <a href="/terms" className="hover:underline">
+                    Terms of Service
+                  </a>
+                </li>
               </ul>
             </div>
 
@@ -41,11 +81,31 @@ export default function Footer() {
                 Details
               </h3>
               <ul className="space-y-2 md:space-y-3 text-[11px] font-medium text-gray-900">
-                <li><a href="/shipping" className="hover:underline">Shipping & Returns</a></li>
-                <li><a href="/privacy" className="hover:underline">Privacy Policy</a></li>
-                <li><a href="/international" className="hover:underline">International Shipping</a></li>
-                <li><a href="/faq" className="hover:underline">FAQ’s and Support</a></li>
-                <li><a href="/terms" className="hover:underline">Terms of Service</a></li>
+                <li>
+                  <a href="/shipping" className="hover:underline">
+                    Shipping & Returns
+                  </a>
+                </li>
+                <li>
+                  <a href="/privacy" className="hover:underline">
+                    Privacy Policy
+                  </a>
+                </li>
+                <li>
+                  <a href="/international" className="hover:underline">
+                    International Shipping
+                  </a>
+                </li>
+                <li>
+                  <a href="/faq" className="hover:underline">
+                    FAQ’s and Support
+                  </a>
+                </li>
+                <li>
+                  <a href="/terms" className="hover:underline">
+                    Terms of Service
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
@@ -69,7 +129,10 @@ export default function Footer() {
             <p className="text-[11px] font-medium text-gray-900 mt-[0.75rem] mb-4 leading-6.5">
               Elegantjewel Private Limited
               <br />
-              <a href="mailto:contact@elegantjewels.com" className="hover:underline">
+              <a
+                href="mailto:contact@elegantjewels.com"
+                className="hover:underline"
+              >
                 contact@elegantjewels.com
               </a>
               <br />
@@ -85,13 +148,25 @@ export default function Footer() {
               Our Social Links:
             </p>
             <div className="flex gap-5 text-[#A40303] text-[26px]">
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://linkedin.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Linkedin className="cursor-pointer hover:opacity-80" />
               </a>
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Facebook className="cursor-pointer hover:opacity-80" />
               </a>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Instagram className="cursor-pointer hover:opacity-80" />
               </a>
             </div>
@@ -103,7 +178,7 @@ export default function Footer() {
 
       {/* Copyright Bar */}
       <div className="bg-[#CA8787] max-w-7xl mx-auto text-white text-left px-4 py-2 text-[13px] mt-20 md:px-16">
-        © 2024 Elegant Jewels. All Rights Reserved.
+        © {new Date().getFullYear()} Elegant Jewels. All Rights Reserved.
       </div>
     </footer>
   );
