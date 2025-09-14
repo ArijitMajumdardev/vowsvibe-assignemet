@@ -43,7 +43,7 @@ const TopPicksForYou = ({ products }: { products: Iproducts[] }) => {
           <div
             className="flex gap-4 transition-transform duration-500 ease-in-out"
             style={{
-              transform: `translateX(-${currentIndex * (15.5 * 16 + 15)}px)`,
+              transform: `translateX(-${currentIndex * (15.5 * 16 + 16)}px)`,
             }}
           >
             {products.map((product, index) => (
