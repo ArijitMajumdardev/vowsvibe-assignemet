@@ -21,7 +21,7 @@ export default function ProductMedia() {
       </div>
 
       {/* Mobile Media */}
-      <div className="lg:hidden">
+      <div className="lg:hidden md:hidden">
         <span className="text-md font-medium m-3 flex justify-left items-center">
           <ArrowLeft size={26} strokeWidth={1} />
           Product Details
