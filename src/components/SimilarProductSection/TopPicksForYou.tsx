@@ -18,7 +18,7 @@ const TopPicksForYou = ({ products }: { products: Iproducts[] }) => {
   };
 
   return (
-    <div className="mt-14 h-[420px] ">
+    <div className="mt-14 h-[420px] max-w-7xl mx-auto ">
       {/* Section title */}
       <div className="w-full h-12 flex justify-center items-center">
         <h2 className="text-2xl font-semibold text-center">
